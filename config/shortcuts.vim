@@ -1,4 +1,5 @@
 let mapleader = ','
+
 "Navigation 
 
 nnoremap ; :
@@ -19,10 +20,10 @@ vnoremap ^ <nop>
 nnoremap $ <nop>
 vnoremap jk <esc>
 vnoremap kj <esc>
-vnoremap <esc> <nop>
-"Folding 
 
+"Folding 
 nnoremap <space> za 
+
 "NerdTree
 
 map <leader>t :NERDTreeToggle<CR>
@@ -42,4 +43,6 @@ nmap <M-k> mz:m-2<cr>`z
 vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
-
+"Terminal 
+tnoremap <esc> jk
+tnoremap <esc> kj
