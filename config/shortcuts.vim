@@ -25,7 +25,7 @@ nmap <leader>w :w!<cr>
 "Quit with <leader>q
 nmap <leader>q :q<cr>
 "Save and Quit with <leader>wq
-nmap <leader>wq :wwq<cr>
+nmap <leader>wq :wq<cr>
 
 " Move a line of text using ALT+[jk] or Command+[jk] on mac
 nmap <M-j> mz:m+<cr>`z
