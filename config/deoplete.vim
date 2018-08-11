@@ -1,4 +1,3 @@
-
 let g:deoplete#enable_at_startup = 1
 
 inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")

@@ -46,3 +46,7 @@ vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 "Terminal 
 tnoremap <esc> jk
 tnoremap <esc> kj
+
+"Tag Navigation
+nnoremap <leader>] <C-]>
+nnoremap <leader>[ <C-t> 
