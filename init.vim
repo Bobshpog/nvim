@@ -15,6 +15,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tmhedberg/simpylfold'
+Plug 'ludovicchabant/vim-gutentags'
+
+
 "Plug 'https://github.com/Rip-Rip/clang_complete'
 call plug#end()
 
