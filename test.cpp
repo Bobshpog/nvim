@@ -9,7 +9,8 @@ public:
     return 0;
   }
 };
+
 int main() {
-  auto test = new x;
-  test->print();
+  x test;
+  test.print();
 }
