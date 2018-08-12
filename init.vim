@@ -16,6 +16,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tmhedberg/simpylfold'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'jiangmiao/auto-pairs'
+"Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
