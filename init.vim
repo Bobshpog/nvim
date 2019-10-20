@@ -1,13 +1,13 @@
 "init Plug
 call plug#begin('~/.config/nvim/plugged/')
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'zchee/deoplete-jedi'
 Plug 'sjl/badwolf'
 Plug 'itchyny/lightline.vim'
 Plug 'kassio/neoterm'
-Plug 'zchee/deoplete-clang'
-Plug 'w0rp/ale' 
+"Plug 'zchee/deoplete-clang'
+"Plug 'w0rp/ale' 
 Plug 'scrooloose/nerdcommenter'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'kien/ctrlp.vim'
