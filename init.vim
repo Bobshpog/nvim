@@ -29,6 +29,7 @@ filetype on
 syntax on
 colorscheme badwolf
 "Sources everythin in nvim/config
+source ~/.config/nvim/config/shortcuts.vim
 for f in split(glob('~/.config/nvim/config/*.vim'), '\n')
     exe 'source' f
 endfor

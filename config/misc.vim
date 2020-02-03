@@ -8,7 +8,7 @@ set encoding=utf-8
 set smartcase
 set showmatch
 set incsearch
-set clipboard+=unnamedplus 
+set clipboard+=unnamedplus
 "Hides --Insert--
 set noshowmode
 
@@ -22,10 +22,11 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 set foldmethod=indent
+set foldnestmax=1
 " Linebreak on 500 characters
 set lbr
 set tw=500

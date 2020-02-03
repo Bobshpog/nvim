@@ -1,7 +1,9 @@
 {
+  "eslint.autoFixOnSave": true,
+
     "python.jediEnabled": false,
     "python.linting.pep8Enabled": true,
-    
+
     "languageserver": {
     "ccls": {
       "command": "ccls",
